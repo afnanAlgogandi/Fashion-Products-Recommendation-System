@@ -22,13 +22,18 @@ This project implements a Fashion Product Recommendation System (FRS) using a pr
    cd fashion-recommendation-system
    
 ### 1- Install dependencies:
-pip install -r requirements.txt
+
+    ```bash
+    pip install -r requirements.txt
 
 ### 2- Download the Myntra Fashion Product Dataset from Kaggle:
-kaggle datasets download -d hiteshsuthar101/myntra-fashion-product-dataset
-unzip myntra-fashion-product-dataset.zip
+
+    ```bash   
+    kaggle datasets download -d hiteshsuthar101/myntra-fashion-product-dataset
+    unzip myntra-fashion-product-dataset.zip
+
 
 ## Usage
-Run the fashion_recommendation_system.ipynb notebook to train the model, extract features, and build the recommendation system.
+1- Run the fashion_recommendation_system.ipynb notebook to train the model, extract features, and build the recommendation system.
 
-Follow the instructions in the notebook to input an image and receive product recommendations.
+2- Follow the instructions in the notebook to input an image and receive product recommendations.
