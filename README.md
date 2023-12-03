@@ -23,12 +23,11 @@ This project implements a Fashion Product Recommendation System (FRS) using a pr
    
 ### 1- Install dependencies:
 
-    ```bash
+   
     pip install -r requirements.txt
 
 ### 2- Download the Myntra Fashion Product Dataset from Kaggle:
-
-    ```bash   
+ 
     kaggle datasets download -d hiteshsuthar101/myntra-fashion-product-dataset
     unzip myntra-fashion-product-dataset.zip
 
